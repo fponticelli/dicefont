@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>d6-4</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="d6-4" fill="#000000">
-            <g id="d6-hollow" transform="translate(4.000000, 4.000000)" fill-rule="nonzero">
-                <path d="M3,25 L25,25 L25,3 L3,3 L3,25 Z M1,1 L27,1 L27,27 L1,27 L1,1 Z" id="Rectangle"></path>
-            </g>
-            <g id="4" transform="translate(14.000000, 14.000000)">
-                <path d="M4.40136719,9 L4.40136719,7.27148438 L0.885742188,7.27148438 L0.885742188,5.83007812 L4.61230469,0.375 L5.99511719,0.375 L5.99511719,5.82421875 L7.06152344,5.82421875 L7.06152344,7.27148438 L5.99511719,7.27148438 L5.99511719,9 L4.40136719,9 Z M4.40136719,5.82421875 L4.40136719,2.88867188 L2.42675781,5.82421875 L4.40136719,5.82421875 Z"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><title>d6-4</title><g fill-rule="evenodd"><path d="M7 29h22V7H7v22zM5 5h26v26H5V5z" fill-rule="nonzero"/><path d="M18.401 23v-1.729h-3.515v-1.44l3.726-5.456h1.383v5.45h1.067v1.446h-1.067V23h-1.594zm0-3.176V16.89l-1.974 2.935H18.4z"/></g></svg>

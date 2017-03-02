@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>d2-1</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="d2-1" fill="#000000">
-            <g id="s2-hollow" transform="translate(4.000000, 4.000000)" fill-rule="nonzero">
-                <path d="M14,29 C5.71572875,29 -1,22.2842712 -1,14 C-1,5.71572875 5.71572875,-1 14,-1 C22.2842712,-1 29,5.71572875 29,14 C29,22.2842712 22.2842712,29 14,29 Z M14,27 C21.1797017,27 27,21.1797017 27,14 C27,6.82029825 21.1797017,1 14,1 C6.82029825,1 1,6.82029825 1,14 C1,21.1797017 6.82029825,27 14,27 Z" id="Oval"></path>
-            </g>
-            <g id="1" transform="translate(15.000000, 14.000000)">
-                <path d="M4.38574219,9 L2.73925781,9 L2.73925781,2.79492188 C2.1376923,3.35742469 1.42871502,3.77343615 0.612304688,4.04296875 L0.612304688,2.54882812 C1.04199434,2.40820242 1.50878654,2.14160353 2.01269531,1.74902344 C2.51660408,1.35644335 2.86230375,0.898440117 3.04980469,0.375 L4.38574219,0.375 L4.38574219,9 Z"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><title>d2-1</title><g fill-rule="evenodd"><path d="M18 33C9.716 33 3 26.284 3 18 3 9.716 9.716 3 18 3c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15zm0-2c7.18 0 13-5.82 13-13S25.18 5 18 5 5 10.82 5 18s5.82 13 13 13z" fill-rule="nonzero"/><path d="M19.386 23h-1.647v-6.205a5.676 5.676 0 0 1-2.127 1.248v-1.494c.43-.14.897-.407 1.4-.8.505-.393.85-.85 1.038-1.374h1.336V23z"/></g></svg>

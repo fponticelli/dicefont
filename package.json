@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gensvg": "sketchtool export slices assets/dicefont.sketch --output=assets/icons/"
+    "exportsvg": "sketchtool export slices assets/dicefont.sketch --output=assets/icons/",
+    "optimizesvg": "./node_modules/.bin/svgo -f assets/icons --multipass",
+    "gensvg": "npm run exportsvg && npm run optimizesvg",
+    "fontcustom": "fontcustom compile assets/icons/",
+    "build": "npm run gensvg && npm run fontcustom"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fponticelli/dicefont/issues"
   },
-  "homepage": "https://github.com/fponticelli/dicefont#readme"
+  "homepage": "https://github.com/fponticelli/dicefont#readme",
+  "dependencies": {
+    "svgo": "^0.7.2"
+  }
 }

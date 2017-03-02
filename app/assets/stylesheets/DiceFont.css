@@ -1,0 +1,325 @@
+/*
+  Icon Font: DiceFont
+*/
+
+@font-face {
+  font-family: "DiceFont";
+  src: url("../fonts/DiceFont.eot");
+  src: url("../fonts/DiceFont.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/DiceFont.woff") format("woff"),
+       url("../fonts/DiceFont.ttf") format("truetype"),
+       url("../fonts/DiceFont.svg#DiceFont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "DiceFont";
+    src: url("../fonts/DiceFont.svg#DiceFont") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.df-d10-0:before,
+.df-d10-1:before,
+.df-d10-10:before,
+.df-d10-2:before,
+.df-d10-3:before,
+.df-d10-4:before,
+.df-d10-5:before,
+.df-d10-6:before,
+.df-d10-7:before,
+.df-d10-8:before,
+.df-d10-9:before,
+.df-d12-1:before,
+.df-d12-10:before,
+.df-d12-11:before,
+.df-d12-12:before,
+.df-d12-2:before,
+.df-d12-3:before,
+.df-d12-4:before,
+.df-d12-5:before,
+.df-d12-6:before,
+.df-d12-7:before,
+.df-d12-8:before,
+.df-d12-9:before,
+.df-d2-1:before,
+.df-d2-2:before,
+.df-d20-1:before,
+.df-d20-10:before,
+.df-d20-11:before,
+.df-d20-12:before,
+.df-d20-13:before,
+.df-d20-14:before,
+.df-d20-15:before,
+.df-d20-16:before,
+.df-d20-17:before,
+.df-d20-18:before,
+.df-d20-19:before,
+.df-d20-2:before,
+.df-d20-20:before,
+.df-d20-3:before,
+.df-d20-4:before,
+.df-d20-5:before,
+.df-d20-6:before,
+.df-d20-7:before,
+.df-d20-8:before,
+.df-d20-9:before,
+.df-d4-1:before,
+.df-d4-2:before,
+.df-d4-3:before,
+.df-d4-4:before,
+.df-d6-1:before,
+.df-d6-2:before,
+.df-d6-3:before,
+.df-d6-4:before,
+.df-d6-5:before,
+.df-d6-6:before,
+.df-d8-1:before,
+.df-d8-2:before,
+.df-d8-3:before,
+.df-d8-4:before,
+.df-d8-5:before,
+.df-d8-6:before,
+.df-d8-7:before,
+.df-d8-8:before,
+.df-dot-d6-1:before,
+.df-dot-d6-2:before,
+.df-dot-d6-3:before,
+.df-dot-d6-4:before,
+.df-dot-d6-5:before,
+.df-small-d10-0:before,
+.df-small-d10-1:before,
+.df-small-d10-10:before,
+.df-small-d10-2:before,
+.df-small-d10-3:before,
+.df-small-d10-4:before,
+.df-small-d10-5:before,
+.df-small-d10-6:before,
+.df-small-d10-7:before,
+.df-small-d10-8:before,
+.df-small-d10-9:before,
+.df-small-d12-1:before,
+.df-small-d12-10:before,
+.df-small-d12-11:before,
+.df-small-d12-12:before,
+.df-small-d12-2:before,
+.df-small-d12-3:before,
+.df-small-d12-4:before,
+.df-small-d12-5:before,
+.df-small-d12-6:before,
+.df-small-d12-7:before,
+.df-small-d12-8:before,
+.df-small-d12-9:before,
+.df-small-d2-1:before,
+.df-small-d2-2:before,
+.df-small-d20-1:before,
+.df-small-d20-10:before,
+.df-small-d20-11:before,
+.df-small-d20-12:before,
+.df-small-d20-13:before,
+.df-small-d20-14:before,
+.df-small-d20-15:before,
+.df-small-d20-16:before,
+.df-small-d20-17:before,
+.df-small-d20-18:before,
+.df-small-d20-19:before,
+.df-small-d20-2:before,
+.df-small-d20-20:before,
+.df-small-d20-3:before,
+.df-small-d20-4:before,
+.df-small-d20-5:before,
+.df-small-d20-6:before,
+.df-small-d20-7:before,
+.df-small-d20-8:before,
+.df-small-d20-9:before,
+.df-small-d4-1:before,
+.df-small-d4-2:before,
+.df-small-d4-3:before,
+.df-small-d4-4:before,
+.df-small-d6-1:before,
+.df-small-d6-2:before,
+.df-small-d6-3:before,
+.df-small-d6-4:before,
+.df-small-d6-5:before,
+.df-small-d6-6:before,
+.df-small-d8-1:before,
+.df-small-d8-2:before,
+.df-small-d8-3:before,
+.df-small-d8-4:before,
+.df-small-d8-5:before,
+.df-small-d8-6:before,
+.df-small-d8-7:before,
+.df-small-d8-8:before,
+.df-small-dot-d6-1:before,
+.df-small-dot-d6-2:before,
+.df-small-dot-d6-3:before,
+.df-small-dot-d6-4:before,
+.df-small-dot-d6-5:before,
+.df-small-dot-d6-6:before,
+.df-solid-small-dot-d6-1:before,
+.df-solid-small-dot-d6-2:before,
+.df-solid-small-dot-d6-3:before,
+.df-solid-small-dot-d6-4:before,
+.df-solid-small-dot-d6-5:before,
+.df-solid-small-dot-d6-6:before {
+  display: inline-block;
+  font-family: "DiceFont";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.df-d10-0:before { content: "\f100"; }
+.df-d10-1:before { content: "\f101"; }
+.df-d10-10:before { content: "\f102"; }
+.df-d10-2:before { content: "\f103"; }
+.df-d10-3:before { content: "\f104"; }
+.df-d10-4:before { content: "\f105"; }
+.df-d10-5:before { content: "\f106"; }
+.df-d10-6:before { content: "\f107"; }
+.df-d10-7:before { content: "\f108"; }
+.df-d10-8:before { content: "\f109"; }
+.df-d10-9:before { content: "\f10a"; }
+.df-d12-1:before { content: "\f10b"; }
+.df-d12-10:before { content: "\f10c"; }
+.df-d12-11:before { content: "\f10d"; }
+.df-d12-12:before { content: "\f10e"; }
+.df-d12-2:before { content: "\f10f"; }
+.df-d12-3:before { content: "\f110"; }
+.df-d12-4:before { content: "\f111"; }
+.df-d12-5:before { content: "\f112"; }
+.df-d12-6:before { content: "\f113"; }
+.df-d12-7:before { content: "\f114"; }
+.df-d12-8:before { content: "\f115"; }
+.df-d12-9:before { content: "\f116"; }
+.df-d2-1:before { content: "\f117"; }
+.df-d2-2:before { content: "\f118"; }
+.df-d20-1:before { content: "\f119"; }
+.df-d20-10:before { content: "\f11a"; }
+.df-d20-11:before { content: "\f11b"; }
+.df-d20-12:before { content: "\f11c"; }
+.df-d20-13:before { content: "\f11d"; }
+.df-d20-14:before { content: "\f11e"; }
+.df-d20-15:before { content: "\f11f"; }
+.df-d20-16:before { content: "\f120"; }
+.df-d20-17:before { content: "\f121"; }
+.df-d20-18:before { content: "\f122"; }
+.df-d20-19:before { content: "\f123"; }
+.df-d20-2:before { content: "\f124"; }
+.df-d20-20:before { content: "\f125"; }
+.df-d20-3:before { content: "\f126"; }
+.df-d20-4:before { content: "\f127"; }
+.df-d20-5:before { content: "\f128"; }
+.df-d20-6:before { content: "\f129"; }
+.df-d20-7:before { content: "\f12a"; }
+.df-d20-8:before { content: "\f12b"; }
+.df-d20-9:before { content: "\f12c"; }
+.df-d4-1:before { content: "\f12d"; }
+.df-d4-2:before { content: "\f12e"; }
+.df-d4-3:before { content: "\f12f"; }
+.df-d4-4:before { content: "\f130"; }
+.df-d6-1:before { content: "\f131"; }
+.df-d6-2:before { content: "\f132"; }
+.df-d6-3:before { content: "\f133"; }
+.df-d6-4:before { content: "\f134"; }
+.df-d6-5:before { content: "\f135"; }
+.df-d6-6:before { content: "\f136"; }
+.df-d8-1:before { content: "\f137"; }
+.df-d8-2:before { content: "\f138"; }
+.df-d8-3:before { content: "\f139"; }
+.df-d8-4:before { content: "\f13a"; }
+.df-d8-5:before { content: "\f13b"; }
+.df-d8-6:before { content: "\f13c"; }
+.df-d8-7:before { content: "\f13d"; }
+.df-d8-8:before { content: "\f13e"; }
+.df-dot-d6-1:before { content: "\f13f"; }
+.df-dot-d6-2:before { content: "\f140"; }
+.df-dot-d6-3:before { content: "\f141"; }
+.df-dot-d6-4:before { content: "\f142"; }
+.df-dot-d6-5:before { content: "\f143"; }
+.df-small-d10-0:before { content: "\f144"; }
+.df-small-d10-1:before { content: "\f145"; }
+.df-small-d10-10:before { content: "\f146"; }
+.df-small-d10-2:before { content: "\f147"; }
+.df-small-d10-3:before { content: "\f148"; }
+.df-small-d10-4:before { content: "\f149"; }
+.df-small-d10-5:before { content: "\f14a"; }
+.df-small-d10-6:before { content: "\f14b"; }
+.df-small-d10-7:before { content: "\f14c"; }
+.df-small-d10-8:before { content: "\f14d"; }
+.df-small-d10-9:before { content: "\f14e"; }
+.df-small-d12-1:before { content: "\f14f"; }
+.df-small-d12-10:before { content: "\f150"; }
+.df-small-d12-11:before { content: "\f151"; }
+.df-small-d12-12:before { content: "\f152"; }
+.df-small-d12-2:before { content: "\f153"; }
+.df-small-d12-3:before { content: "\f154"; }
+.df-small-d12-4:before { content: "\f155"; }
+.df-small-d12-5:before { content: "\f156"; }
+.df-small-d12-6:before { content: "\f157"; }
+.df-small-d12-7:before { content: "\f158"; }
+.df-small-d12-8:before { content: "\f159"; }
+.df-small-d12-9:before { content: "\f15a"; }
+.df-small-d2-1:before { content: "\f15b"; }
+.df-small-d2-2:before { content: "\f15c"; }
+.df-small-d20-1:before { content: "\f15d"; }
+.df-small-d20-10:before { content: "\f15e"; }
+.df-small-d20-11:before { content: "\f15f"; }
+.df-small-d20-12:before { content: "\f160"; }
+.df-small-d20-13:before { content: "\f161"; }
+.df-small-d20-14:before { content: "\f162"; }
+.df-small-d20-15:before { content: "\f163"; }
+.df-small-d20-16:before { content: "\f164"; }
+.df-small-d20-17:before { content: "\f165"; }
+.df-small-d20-18:before { content: "\f166"; }
+.df-small-d20-19:before { content: "\f167"; }
+.df-small-d20-2:before { content: "\f168"; }
+.df-small-d20-20:before { content: "\f169"; }
+.df-small-d20-3:before { content: "\f16a"; }
+.df-small-d20-4:before { content: "\f16b"; }
+.df-small-d20-5:before { content: "\f16c"; }
+.df-small-d20-6:before { content: "\f16d"; }
+.df-small-d20-7:before { content: "\f16e"; }
+.df-small-d20-8:before { content: "\f16f"; }
+.df-small-d20-9:before { content: "\f170"; }
+.df-small-d4-1:before { content: "\f171"; }
+.df-small-d4-2:before { content: "\f172"; }
+.df-small-d4-3:before { content: "\f173"; }
+.df-small-d4-4:before { content: "\f174"; }
+.df-small-d6-1:before { content: "\f175"; }
+.df-small-d6-2:before { content: "\f176"; }
+.df-small-d6-3:before { content: "\f177"; }
+.df-small-d6-4:before { content: "\f178"; }
+.df-small-d6-5:before { content: "\f179"; }
+.df-small-d6-6:before { content: "\f17a"; }
+.df-small-d8-1:before { content: "\f17b"; }
+.df-small-d8-2:before { content: "\f17c"; }
+.df-small-d8-3:before { content: "\f17d"; }
+.df-small-d8-4:before { content: "\f17e"; }
+.df-small-d8-5:before { content: "\f17f"; }
+.df-small-d8-6:before { content: "\f180"; }
+.df-small-d8-7:before { content: "\f181"; }
+.df-small-d8-8:before { content: "\f182"; }
+.df-small-dot-d6-1:before { content: "\f183"; }
+.df-small-dot-d6-2:before { content: "\f184"; }
+.df-small-dot-d6-3:before { content: "\f185"; }
+.df-small-dot-d6-4:before { content: "\f186"; }
+.df-small-dot-d6-5:before { content: "\f187"; }
+.df-small-dot-d6-6:before { content: "\f188"; }
+.df-solid-small-dot-d6-1:before { content: "\f189"; }
+.df-solid-small-dot-d6-2:before { content: "\f18a"; }
+.df-solid-small-dot-d6-3:before { content: "\f18b"; }
+.df-solid-small-dot-d6-4:before { content: "\f18c"; }
+.df-solid-small-dot-d6-5:before { content: "\f18d"; }
+.df-solid-small-dot-d6-6:before { content: "\f18e"; }
