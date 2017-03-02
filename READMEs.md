@@ -2,6 +2,8 @@
 
 ## Dice icons for the web and more
 
+A font for dice. Supports all standard dice (D4, D6, D8, 10, D12, D20).
+
 ### Font License
 
 Applies to all desktop and webfont files: [License: SIL OFL 1.1](http://scripts.sil.org/OFL)
