@@ -22,7 +22,7 @@ no_hash: true
 #base64: true
 
 # Forces compilation, even if inputs have not changed
-#force: true
+force: true
 
 # Display (possibly useful) debugging messages.
 #debug: true
@@ -51,7 +51,7 @@ input:
 output:
   fonts: dist/fonts
   css: dist/css
-  preview: doc
+  preview: dist/preview
 
 
 # -----------------------------------------------------------------------------
