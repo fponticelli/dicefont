@@ -1,8 +1,6 @@
 # DiceFont
 
-## Dice icons for the web and more
-
-A font for dice. Supports all standard dice (D4, D6, D8, 10, D12, D20).
+[A font for dice](https://cdn.rawgit.com/fponticelli/dicefont/master/dist/dicefont/index.html). Supports all standard dice (D4, D6, D8, 10, D12, D20).
 
 ### Font License
 
