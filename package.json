@@ -12,7 +12,7 @@
     "removetemplates": "find ./dist/icons -type f ! -name '*.svg' -delete",
     "fontcustom": "npm run templates && fontcustom compile dist/icons && npm run removetemplates",
     "watch-fontcustom": "fontcustom watch dist/icons",
-    "build": "npm run gensvg && npm run fontcustom"
+    "build": "rm -rf dist/* && npm run gensvg && npm run fontcustom"
   },
   "repository": {
     "type": "git",

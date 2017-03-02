@@ -10,7 +10,7 @@
 # -----------------------------------------------------------------------------
 
 # The font's name. Also determines the file names of generated templates.
-font_name: DiceFont
+font_name: dicefont
 
 # Format of CSS selectors. {{glyph}} is substituted for the glyph name.
 css_selector: .df-{{glyph}}
@@ -49,10 +49,11 @@ input:
   vectors: dist/icons
 
 output:
-  fonts: dist/fonts
-  css: dist/css
-  preview: dist/preview
-
+  fonts: dist/dicefont
+  css: dist/dicefont
+  preview: dist/dicefont
+  index.html: dist/dicefont
+  info.json: dist
 
 # -----------------------------------------------------------------------------
 # Templates
@@ -68,8 +69,11 @@ output:
 #   Default: css, preview
 # -----------------------------------------------------------------------------
 
-# templates:
-# - dicefont.styl
+templates:
+- css
+# - preview
+- index.html
+- info.json
 
 #preprocessor_path: ../fonts/
 

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "fontName": "<%= font_name %>",
+  "glyphs": [<% @glyphs.each_with_index do |(name, value), index|
+  selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>{
+    "name": "<%= selector[1..-1] %>",
+    "code": "#x<%= value[:codepoint].to_s(16) %>"
+  }<% if index < @glyphs.length - 1 %>, <% end %><% end %>]
+}

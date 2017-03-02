@@ -5,14 +5,14 @@
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170104 at Thu Mar  2 07:34:42 2017
+Created by FontForge 20170104 at Thu Mar  2 08:40:57 2017
  By Franco Ponticelli
 Copyright (c) 2017, Franco Ponticelli
 </metadata>
 <defs>
-<font id="DiceFont" horiz-adv-x="512" >
+<font id="dicefont" horiz-adv-x="512" >
   <font-face 
-    font-family="DiceFont"
+    font-family="dicefont"
     font-weight="400"
     font-stretch="normal"
     units-per-em="512"

@@ -1,0 +1,170 @@
+<% scale = %w|14 18 24 36 72| %><!DOCTYPE html>
+<html>
+  <head>
+    <title><%= font_name %> glyphs preview</title>
+
+    <style>
+      /* Page Styles */
+
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #fff;
+        color: #444;
+        font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      a,
+      a:visited {
+        color: #888;
+        text-decoration: underline;
+      }
+      a:hover,
+      a:focus { color: #000; }
+
+      header {
+        border-bottom: 2px solid #ddd;
+        margin-bottom: 20px;
+        overflow: hidden;
+        padding: 20px 0;
+      }
+
+      header h1 {
+        color: #888;
+        float: left;
+        font-size: 36px;
+        font-weight: 300;
+      }
+
+      header a {
+        float: right;
+        font-size: 14px;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 1200px;
+        min-width: 960px;
+        padding: 0 40px;
+        width: 90%;
+      }
+
+      .glyph {
+        border-bottom: 1px dotted #ccc;
+        padding: 10px 0 20px;
+        margin-bottom: 20px;
+      }
+
+      .preview-glyphs { vertical-align: bottom; }
+
+      .preview-scale {
+        color: #888;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+
+      .step {
+        display: inline-block;
+        line-height: 1;
+        position: relative;
+        width: 10%;
+      }
+
+      .step .letters,
+      .step i {
+        -webkit-transition: opacity .3s;
+        -moz-transition: opacity .3s;
+        -ms-transition: opacity .3s;
+        -o-transition: opacity .3s;
+        transition: opacity .3s;
+      }
+
+      .step:hover .letters { opacity: 1; }
+      .step:hover i { opacity: .3; }
+
+      .letters {
+        opacity: .3;
+        position: absolute;
+      }
+
+      .characters-off .letters { display: none; }
+      .characters-off .step:hover i { opacity: 1; }
+
+      <% scale.each do |n| %>
+      .size-<%= n %> { font-size: <%= n %>px; }
+      <% end %>
+
+      .usage { margin-top: 10px; }
+
+      .usage input {
+        font-family: monospace;
+        margin-right: 3px;
+        padding: 2px 5px;
+        text-align: center;
+      }
+
+      .usage .point { width: 150px; }
+
+      .usage .class { width: 250px; }
+
+      footer {
+        color: #888;
+        font-size: 12px;
+        padding: 20px 0;
+      }
+
+      /* Icon Font: <%= font_name %> */
+
+      <%= font_face(path: @font_path_preview) %>
+
+      [data-icon]:before { content: attr(data-icon); }
+
+      [data-icon]:before,
+      <%= glyph_selectors %> {
+      <%= glyph_properties %>
+      }
+
+      <%= glyphs %>
+    </style>
+
+    <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <script>
+      function toggleCharacters() {
+        var body = document.getElementsByTagName('body')[0];
+        body.className = body.className === 'characters-off' ? '' : 'characters-off';
+      }
+    </script>
+  </head>
+
+  <body class="characters-off">
+    <div id="page" class="container">
+      <header>
+        <h1>DiceFont glyphs</h1>
+        <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
+      </header>
+
+      <% @glyphs.each do |name, value|
+        selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <% scale.each do |n| %><span class="step size-<%= n %>"><span class="letters">Pp</span><i id="<%= selector[1..-1] %>" class="<%= selector[1..-1].gsub('.', ' ') %>"></i></span><% end %>
+        </div>
+        <div class="preview-scale">
+          <% scale.each do |n| %><span class="step"><%= n %></span><% end %>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value="<%= selector %>" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#x<%= value[:codepoint].to_s(16) %>;" />
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </body>
+</html>

@@ -1,22 +1,22 @@
 /*
-  Icon Font: DiceFont
+  Icon Font: dicefont
 */
 
 @font-face {
-  font-family: "DiceFont";
-  src: url("../fonts/DiceFont.eot");
-  src: url("../fonts/DiceFont.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/DiceFont.woff") format("woff"),
-       url("../fonts/DiceFont.ttf") format("truetype"),
-       url("../fonts/DiceFont.svg#DiceFont") format("svg");
+  font-family: "dicefont";
+  src: url("./dicefont.eot");
+  src: url("./dicefont.eot?#iefix") format("embedded-opentype"),
+       url("./dicefont.woff") format("woff"),
+       url("./dicefont.ttf") format("truetype"),
+       url("./dicefont.svg#dicefont") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: "DiceFont";
-    src: url("../fonts/DiceFont.svg#DiceFont") format("svg");
+    font-family: "dicefont";
+    src: url("./dicefont.svg#dicefont") format("svg");
   }
 }
 
@@ -167,7 +167,7 @@
 .df-solid-small-dot-d6-5:before,
 .df-solid-small-dot-d6-6:before {
   display: inline-block;
-  font-family: "DiceFont";
+  font-family: "dicefont";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
