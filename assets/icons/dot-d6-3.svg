@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>dot-d6-3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dot-d6-3" fill="#000000">
+            <g id="d6-hollow" transform="translate(4.000000, 4.000000)" fill-rule="nonzero">
+                <path d="M3,25 L25,25 L25,3 L3,3 L3,25 Z M1,1 L27,1 L27,27 L1,27 L1,1 Z" id="Rectangle"></path>
+            </g>
+            <g id="dot-solid-1" transform="translate(10.000000, 21.000000)">
+                <circle id="dot-solid" cx="2" cy="3" r="2"></circle>
+            </g>
+            <g id="dot-solid-1" transform="translate(22.000000, 9.000000)">
+                <circle id="dot-solid" cx="2" cy="3" r="2"></circle>
+            </g>
+            <g id="dot-solid-1" transform="translate(16.000000, 15.000000)">
+                <circle id="dot-solid" cx="2" cy="3" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

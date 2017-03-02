@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>small-d4-4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="small-d4-4" fill="#000000">
+            <g id="d4-outline" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
+                <path d="M3.42375117,18.1844921 L20.5425081,18.1844921 L11.9831296,3.28079922 L3.42375117,18.1844921 Z M12,-1 L24,20 L0,20 L12,-1 Z" id="Polygon-6"></path>
+            </g>
+            <g id="4" transform="translate(8.000000, 9.000000)">
+                <path d="M4.40136719,9 L4.40136719,7.27148438 L0.885742188,7.27148438 L0.885742188,5.83007812 L4.61230469,0.375 L5.99511719,0.375 L5.99511719,5.82421875 L7.06152344,5.82421875 L7.06152344,7.27148438 L5.99511719,7.27148438 L5.99511719,9 L4.40136719,9 Z M4.40136719,5.82421875 L4.40136719,2.88867188 L2.42675781,5.82421875 L4.40136719,5.82421875 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

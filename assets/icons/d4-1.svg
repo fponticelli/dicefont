@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>d4-1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="d4-1" fill="#000000">
+            <g id="d4-hollow" transform="translate(1.000000, 2.000000)" fill-rule="nonzero">
+                <path d="M4.19999981,24.2999992 L29.6999998,24.2999992 L16.9499998,2.5 L4.19999981,24.2999992 Z M17.4330127,-0.25 L32.1554446,25.25 C32.3478947,25.5833333 32.107332,26 31.7224319,26 L2.27756814,26 C1.89266796,26 1.65210534,25.5833333 1.84455543,25.25 L16.5669873,-0.25 C16.7594374,-0.583333333 17.2405626,-0.583333333 17.4330127,-0.25 Z" id="Polygon-4"></path>
+            </g>
+            <g id="1" transform="translate(15.000000, 14.000000)">
+                <path d="M4.38574219,9 L2.73925781,9 L2.73925781,2.79492188 C2.1376923,3.35742469 1.42871502,3.77343615 0.612304688,4.04296875 L0.612304688,2.54882812 C1.04199434,2.40820242 1.50878654,2.14160353 2.01269531,1.74902344 C2.51660408,1.35644335 2.86230375,0.898440117 3.04980469,0.375 L4.38574219,0.375 L4.38574219,9 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

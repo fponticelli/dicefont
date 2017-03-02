@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>small-d6-4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="small-d6-4" fill="#000000">
+            <g id="d6-outline" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
+                <path d="M2,19 L18,19 L18,3 L2,3 L2,19 Z M0,2.99079514 C0,1.89130934 0.898212381,1 1.99079514,1 L18.0092049,1 C19.1086907,1 20,1.89821238 20,2.99079514 L20,19.0092049 C20,20.1086907 19.1017876,21 18.0092049,21 L1.99079514,21 C0.891309342,21 0,20.1017876 0,19.0092049 L0,2.99079514 Z"></path>
+            </g>
+            <g id="4" transform="translate(8.000000, 8.000000)">
+                <path d="M4.40136719,9 L4.40136719,7.27148438 L0.885742188,7.27148438 L0.885742188,5.83007812 L4.61230469,0.375 L5.99511719,0.375 L5.99511719,5.82421875 L7.06152344,5.82421875 L7.06152344,7.27148438 L5.99511719,7.27148438 L5.99511719,9 L4.40136719,9 Z M4.40136719,5.82421875 L4.40136719,2.88867188 L2.42675781,5.82421875 L4.40136719,5.82421875 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
