@@ -1,5 +1,8 @@
-{
-  "version": "1.0.0",
+<%
+require 'json'
+project = JSON.parse(File.read('package.json'))
+%>{
+  "version": "<%= project["version"] %>",
   "fontName": "<%= font_name %>",
   "glyphs": [<% @glyphs.each_with_index do |(name, value), index|
   selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>{

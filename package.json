@@ -1,12 +1,12 @@
 {
   "name": "dicefont",
-  "version": "1.0.0",
+  "version": "0.8.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "templates": "cp -r assets/templates/* dist/icons",
-    "exportsvg": "sketchtool export slices assets/dicefont.sketch --output=temp",
+    "exportsvg": "rm -rf temp/* && sketchtool export slices assets/dicefont.sketch --output=temp",
     "optimizesvg": "./node_modules/.bin/svgo -f temp -o dist/icons --multipass",
     "gensvg": "npm run exportsvg && npm run optimizesvg",
     "removetemplates": "find ./dist/icons -type f ! -name '*.svg' -delete",
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/fponticelli/dicefont.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "SIL OFL 1.1",
   "bugs": {
     "url": "https://github.com/fponticelli/dicefont/issues"
   },

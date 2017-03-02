@@ -91,69 +91,6 @@
 .df-dot-d6-3:before,
 .df-dot-d6-4:before,
 .df-dot-d6-5:before,
-.df-small-d10-0:before,
-.df-small-d10-1:before,
-.df-small-d10-10:before,
-.df-small-d10-2:before,
-.df-small-d10-3:before,
-.df-small-d10-4:before,
-.df-small-d10-5:before,
-.df-small-d10-6:before,
-.df-small-d10-7:before,
-.df-small-d10-8:before,
-.df-small-d10-9:before,
-.df-small-d12-1:before,
-.df-small-d12-10:before,
-.df-small-d12-11:before,
-.df-small-d12-12:before,
-.df-small-d12-2:before,
-.df-small-d12-3:before,
-.df-small-d12-4:before,
-.df-small-d12-5:before,
-.df-small-d12-6:before,
-.df-small-d12-7:before,
-.df-small-d12-8:before,
-.df-small-d12-9:before,
-.df-small-d2-1:before,
-.df-small-d2-2:before,
-.df-small-d20-1:before,
-.df-small-d20-10:before,
-.df-small-d20-11:before,
-.df-small-d20-12:before,
-.df-small-d20-13:before,
-.df-small-d20-14:before,
-.df-small-d20-15:before,
-.df-small-d20-16:before,
-.df-small-d20-17:before,
-.df-small-d20-18:before,
-.df-small-d20-19:before,
-.df-small-d20-2:before,
-.df-small-d20-20:before,
-.df-small-d20-3:before,
-.df-small-d20-4:before,
-.df-small-d20-5:before,
-.df-small-d20-6:before,
-.df-small-d20-7:before,
-.df-small-d20-8:before,
-.df-small-d20-9:before,
-.df-small-d4-1:before,
-.df-small-d4-2:before,
-.df-small-d4-3:before,
-.df-small-d4-4:before,
-.df-small-d6-1:before,
-.df-small-d6-2:before,
-.df-small-d6-3:before,
-.df-small-d6-4:before,
-.df-small-d6-5:before,
-.df-small-d6-6:before,
-.df-small-d8-1:before,
-.df-small-d8-2:before,
-.df-small-d8-3:before,
-.df-small-d8-4:before,
-.df-small-d8-5:before,
-.df-small-d8-6:before,
-.df-small-d8-7:before,
-.df-small-d8-8:before,
 .df-small-dot-d6-1:before,
 .df-small-dot-d6-2:before,
 .df-small-dot-d6-3:before,
@@ -248,69 +185,6 @@
 .df-dot-d6-3:before { content: "\f141"; }
 .df-dot-d6-4:before { content: "\f142"; }
 .df-dot-d6-5:before { content: "\f143"; }
-.df-small-d10-0:before { content: "\f144"; }
-.df-small-d10-1:before { content: "\f145"; }
-.df-small-d10-10:before { content: "\f146"; }
-.df-small-d10-2:before { content: "\f147"; }
-.df-small-d10-3:before { content: "\f148"; }
-.df-small-d10-4:before { content: "\f149"; }
-.df-small-d10-5:before { content: "\f14a"; }
-.df-small-d10-6:before { content: "\f14b"; }
-.df-small-d10-7:before { content: "\f14c"; }
-.df-small-d10-8:before { content: "\f14d"; }
-.df-small-d10-9:before { content: "\f14e"; }
-.df-small-d12-1:before { content: "\f14f"; }
-.df-small-d12-10:before { content: "\f150"; }
-.df-small-d12-11:before { content: "\f151"; }
-.df-small-d12-12:before { content: "\f152"; }
-.df-small-d12-2:before { content: "\f153"; }
-.df-small-d12-3:before { content: "\f154"; }
-.df-small-d12-4:before { content: "\f155"; }
-.df-small-d12-5:before { content: "\f156"; }
-.df-small-d12-6:before { content: "\f157"; }
-.df-small-d12-7:before { content: "\f158"; }
-.df-small-d12-8:before { content: "\f159"; }
-.df-small-d12-9:before { content: "\f15a"; }
-.df-small-d2-1:before { content: "\f15b"; }
-.df-small-d2-2:before { content: "\f15c"; }
-.df-small-d20-1:before { content: "\f15d"; }
-.df-small-d20-10:before { content: "\f15e"; }
-.df-small-d20-11:before { content: "\f15f"; }
-.df-small-d20-12:before { content: "\f160"; }
-.df-small-d20-13:before { content: "\f161"; }
-.df-small-d20-14:before { content: "\f162"; }
-.df-small-d20-15:before { content: "\f163"; }
-.df-small-d20-16:before { content: "\f164"; }
-.df-small-d20-17:before { content: "\f165"; }
-.df-small-d20-18:before { content: "\f166"; }
-.df-small-d20-19:before { content: "\f167"; }
-.df-small-d20-2:before { content: "\f168"; }
-.df-small-d20-20:before { content: "\f169"; }
-.df-small-d20-3:before { content: "\f16a"; }
-.df-small-d20-4:before { content: "\f16b"; }
-.df-small-d20-5:before { content: "\f16c"; }
-.df-small-d20-6:before { content: "\f16d"; }
-.df-small-d20-7:before { content: "\f16e"; }
-.df-small-d20-8:before { content: "\f16f"; }
-.df-small-d20-9:before { content: "\f170"; }
-.df-small-d4-1:before { content: "\f171"; }
-.df-small-d4-2:before { content: "\f172"; }
-.df-small-d4-3:before { content: "\f173"; }
-.df-small-d4-4:before { content: "\f174"; }
-.df-small-d6-1:before { content: "\f175"; }
-.df-small-d6-2:before { content: "\f176"; }
-.df-small-d6-3:before { content: "\f177"; }
-.df-small-d6-4:before { content: "\f178"; }
-.df-small-d6-5:before { content: "\f179"; }
-.df-small-d6-6:before { content: "\f17a"; }
-.df-small-d8-1:before { content: "\f17b"; }
-.df-small-d8-2:before { content: "\f17c"; }
-.df-small-d8-3:before { content: "\f17d"; }
-.df-small-d8-4:before { content: "\f17e"; }
-.df-small-d8-5:before { content: "\f17f"; }
-.df-small-d8-6:before { content: "\f180"; }
-.df-small-d8-7:before { content: "\f181"; }
-.df-small-d8-8:before { content: "\f182"; }
 .df-small-dot-d6-1:before { content: "\f183"; }
 .df-small-dot-d6-2:before { content: "\f184"; }
 .df-small-dot-d6-3:before { content: "\f185"; }
