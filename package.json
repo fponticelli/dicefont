@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "exportsvg": "sketchtool export slices assets/dicefont.sketch --output=assets/icons/",
-    "optimizesvg": "./node_modules/.bin/svgo -f assets/icons --multipass",
+    "exportsvg": "sketchtool export slices assets/dicefont.sketch --output=temp",
+    "optimizesvg": "./node_modules/.bin/svgo -f temp -o dist/icons --multipass",
     "gensvg": "npm run exportsvg && npm run optimizesvg",
-    "fontcustom": "fontcustom compile assets/icons/",
-    "watch-fontcustom": "fontcustom watch assets/icons/",
+    "fontcustom": "fontcustom compile dist/icons",
+    "watch-fontcustom": "fontcustom watch dist/icons",
     "build": "npm run gensvg && npm run fontcustom"
   },
   "repository": {

@@ -46,15 +46,12 @@ no_hash: true
 # -----------------------------------------------------------------------------
 
 input:
-  vectors: assets/icons
-#  templates: my/templates
+  vectors: dist/icons
 
 output:
-  fonts: app/assets/fonts
-  css: app/assets/stylesheets
-  scss: app/assets/scss
-  preview: app/views/styleguide
-#  my-custom-template.yml: path/to/template/output
+  fonts: dist/fonts
+  css: dist/css
+  preview: doc
 
 
 # -----------------------------------------------------------------------------
@@ -71,10 +68,8 @@ output:
 #   Default: css, preview
 # -----------------------------------------------------------------------------
 
-#templates:
-#- scss-rails
-#- preview
-#- my-custom-template.yml
+# templates:
+# - dicefont.styl
 
 #preprocessor_path: ../fonts/
 
@@ -84,7 +79,7 @@ output:
 # -----------------------------------------------------------------------------
 
 # Size (in pica points) for which your font is designed.
-font_design_size: 36
+# font_design_size: 36
 
 # The em size. Setting this will scale the entire font to the given size.
 #font_em: 512
