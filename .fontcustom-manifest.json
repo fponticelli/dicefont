@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "6fd49e8774f9c10135235465a24fde156e9a88cc7906737a62b098b16eba856d",
-    "current": "6fd49e8774f9c10135235465a24fde156e9a88cc7906737a62b098b16eba856d"
+    "previous": "0fd90275b504c39f3ce8fb1c199b3d6c3ada2a16e51203cfb94739d096495162",
+    "current": "0fd90275b504c39f3ce8fb1c199b3d6c3ada2a16e51203cfb94739d096495162"
   },
   "fonts": [
     "app/assets/fonts/DiceFont.ttf",
@@ -607,6 +607,7 @@
     },
     "preprocessor_path": null,
     "quiet": false,
+    "skip_first": false,
     "templates": [
       "css",
       "preview"

@@ -9,6 +9,7 @@
     "optimizesvg": "./node_modules/.bin/svgo -f assets/icons --multipass",
     "gensvg": "npm run exportsvg && npm run optimizesvg",
     "fontcustom": "fontcustom compile assets/icons/",
+    "watch-fontcustom": "fontcustom watch assets/icons/",
     "build": "npm run gensvg && npm run fontcustom"
   },
   "repository": {
