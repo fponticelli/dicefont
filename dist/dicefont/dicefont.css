@@ -91,6 +91,7 @@
 .df-dot-d6-3:before,
 .df-dot-d6-4:before,
 .df-dot-d6-5:before,
+.df-dot-d6-6:before,
 .df-small-dot-d6-1:before,
 .df-small-dot-d6-2:before,
 .df-small-dot-d6-3:before,
@@ -185,6 +186,7 @@
 .df-dot-d6-3:before { content: "\f141"; }
 .df-dot-d6-4:before { content: "\f142"; }
 .df-dot-d6-5:before { content: "\f143"; }
+.df-dot-d6-6:before { content: "\f18f"; }
 .df-small-dot-d6-1:before { content: "\f183"; }
 .df-small-dot-d6-2:before { content: "\f184"; }
 .df-small-dot-d6-3:before { content: "\f185"; }
