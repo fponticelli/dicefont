@@ -1,6 +1,19 @@
 {
   "version": "0.8.0",
   "fontName": "dicefont",
+  "pages": [{
+    "name": "home",
+    "filename": "01.home.md"
+  }, {
+    "name": "usage",
+    "filename": "02.usage.md"
+  }, {
+    "name": "changelog",
+    "filename": "03.changelog.md"
+  }, {
+    "name": "license",
+    "filename": "04.license.md"
+  }],
   "glyphs": [{
     "name": "df-d10-0",
     "code": "#xf100"

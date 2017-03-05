@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "templates": "cp -r assets/templates/* dist/icons",
+    "templates": "cp -r assets/templates/* dist/icons/",
     "exportsvg": "rm -rf temp/* && sketchtool export slices assets/dicefont.sketch --output=temp",
     "optimizesvg": "./node_modules/.bin/svgo -f temp -o dist/icons --multipass",
     "gensvg": "npm run exportsvg && npm run optimizesvg",
     "removetemplates": "find ./dist/icons -type f ! -name '*.svg' -delete",
     "fontcustom": "npm run templates && fontcustom compile dist/icons && npm run removetemplates",
     "watch-fontcustom": "fontcustom watch dist/icons",
-    "build": "rm -rf dist/* && npm run gensvg && npm run fontcustom"
+    "pages": "mkdir dist/pages && cp -r assets/pages/* dist/pages/",
+    "zip": "zip -r9j dist/dicefont.zip  dist/dicefont",
+    "zipicons": "zip -r9j dist/dicefont-icons.zip  dist/icons",
+    "build": "rm -rf dist/* && npm run gensvg && npm run pages && npm run fontcustom && npm run zip && npm run zipicons"
   },
   "repository": {
     "type": "git",

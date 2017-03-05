@@ -1,9 +1,16 @@
 <%
 require 'json'
 project = JSON.parse(File.read('package.json'))
+pages = Dir["dist/pages/*"].select{ |f| File.file? f }.map{ |f| File.basename f }.sort
 %>{
   "version": "<%= project["version"] %>",
   "fontName": "<%= font_name %>",
+  "pages": [<%
+pages.each_with_index do |f, index|
+  %>{
+    "name": "<%= File.basename(f, ".*")[3..-1] %>",
+    "filename": "<%= f %>"
+  }<% if index < pages.length - 1 %>, <% end %><% end %>],
   "glyphs": [<% @glyphs.each_with_index do |(name, value), index|
   selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>{
     "name": "<%= selector[1..-1] %>",
