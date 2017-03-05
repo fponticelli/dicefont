@@ -3,16 +3,16 @@
   "fontName": "dicefont",
   "pages": [{
     "name": "home",
-    "filename": "01.home.md"
+    "filename": "pages/01.home.md"
   }, {
     "name": "usage",
-    "filename": "02.usage.md"
+    "filename": "pages/02.usage.md"
   }, {
     "name": "changelog",
-    "filename": "03.changelog.md"
+    "filename": "pages/03.changelog.md"
   }, {
     "name": "license",
-    "filename": "04.license.md"
+    "filename": "pages/04.license.md"
   }],
   "glyphs": [{
     "name": "df-d10-0",

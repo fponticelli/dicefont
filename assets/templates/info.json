@@ -9,7 +9,7 @@ pages = Dir["dist/pages/*"].select{ |f| File.file? f }.map{ |f| File.basename f 
 pages.each_with_index do |f, index|
   %>{
     "name": "<%= File.basename(f, ".*")[3..-1] %>",
-    "filename": "<%= f %>"
+    "filename": "pages/<%= f %>"
   }<% if index < pages.length - 1 %>, <% end %><% end %>],
   "glyphs": [<% @glyphs.each_with_index do |(name, value), index|
   selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>{
