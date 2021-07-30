@@ -15,6 +15,21 @@
     "filename": "pages/04.license.md"
   }],
   "glyphs": [{
+    "name": "df-F",
+    "code": "#xf190"
+  }, {
+    "name": "df-F-minus",
+    "code": "#xf191"
+  }, {
+    "name": "df-F-plus",
+    "code": "#xf192"
+  }, {
+    "name": "df-F-zero",
+    "code": "#xf193"
+  }, {
+    "name": "df-d10",
+    "code": "#xf194"
+  }, {
     "name": "df-d10-0",
     "code": "#xf100"
   }, {
@@ -47,6 +62,9 @@
   }, {
     "name": "df-d10-9",
     "code": "#xf10a"
+  }, {
+    "name": "df-d12",
+    "code": "#xf195"
   }, {
     "name": "df-d12-1",
     "code": "#xf10b"
@@ -84,11 +102,17 @@
     "name": "df-d12-9",
     "code": "#xf116"
   }, {
+    "name": "df-d2",
+    "code": "#xf196"
+  }, {
     "name": "df-d2-1",
     "code": "#xf117"
   }, {
     "name": "df-d2-2",
     "code": "#xf118"
+  }, {
+    "name": "df-d20",
+    "code": "#xf197"
   }, {
     "name": "df-d20-1",
     "code": "#xf119"
@@ -150,6 +174,9 @@
     "name": "df-d20-9",
     "code": "#xf12c"
   }, {
+    "name": "df-d4",
+    "code": "#xf198"
+  }, {
     "name": "df-d4-1",
     "code": "#xf12d"
   }, {
@@ -161,6 +188,9 @@
   }, {
     "name": "df-d4-4",
     "code": "#xf130"
+  }, {
+    "name": "df-d6",
+    "code": "#xf199"
   }, {
     "name": "df-d6-1",
     "code": "#xf131"
@@ -179,6 +209,9 @@
   }, {
     "name": "df-d6-6",
     "code": "#xf136"
+  }, {
+    "name": "df-d8",
+    "code": "#xf19a"
   }, {
     "name": "df-d8-1",
     "code": "#xf137"
@@ -203,6 +236,9 @@
   }, {
     "name": "df-d8-8",
     "code": "#xf13e"
+  }, {
+    "name": "df-dot-d6",
+    "code": "#xf19b"
   }, {
     "name": "df-dot-d6-1",
     "code": "#xf13f"

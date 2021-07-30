@@ -6,6 +6,7 @@
   font-family: "dicefont";
   src: url("./dicefont.eot");
   src: url("./dicefont.eot?#iefix") format("embedded-opentype"),
+       url("./dicefont.woff2") format("woff2"),
        url("./dicefont.woff") format("woff"),
        url("./dicefont.ttf") format("truetype"),
        url("./dicefont.svg#dicefont") format("svg");
@@ -23,6 +24,11 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.df-F:before,
+.df-F-minus:before,
+.df-F-plus:before,
+.df-F-zero:before,
+.df-d10:before,
 .df-d10-0:before,
 .df-d10-1:before,
 .df-d10-10:before,
@@ -34,6 +40,7 @@
 .df-d10-7:before,
 .df-d10-8:before,
 .df-d10-9:before,
+.df-d12:before,
 .df-d12-1:before,
 .df-d12-10:before,
 .df-d12-11:before,
@@ -46,8 +53,10 @@
 .df-d12-7:before,
 .df-d12-8:before,
 .df-d12-9:before,
+.df-d2:before,
 .df-d2-1:before,
 .df-d2-2:before,
+.df-d20:before,
 .df-d20-1:before,
 .df-d20-10:before,
 .df-d20-11:before,
@@ -68,16 +77,19 @@
 .df-d20-7:before,
 .df-d20-8:before,
 .df-d20-9:before,
+.df-d4:before,
 .df-d4-1:before,
 .df-d4-2:before,
 .df-d4-3:before,
 .df-d4-4:before,
+.df-d6:before,
 .df-d6-1:before,
 .df-d6-2:before,
 .df-d6-3:before,
 .df-d6-4:before,
 .df-d6-5:before,
 .df-d6-6:before,
+.df-d8:before,
 .df-d8-1:before,
 .df-d8-2:before,
 .df-d8-3:before,
@@ -86,6 +98,7 @@
 .df-d8-6:before,
 .df-d8-7:before,
 .df-d8-8:before,
+.df-dot-d6:before,
 .df-dot-d6-1:before,
 .df-dot-d6-2:before,
 .df-dot-d6-3:before,
@@ -118,6 +131,11 @@
   font-smoothing: antialiased;
 }
 
+.df-F:before { content: "\f190"; }
+.df-F-minus:before { content: "\f191"; }
+.df-F-plus:before { content: "\f192"; }
+.df-F-zero:before { content: "\f193"; }
+.df-d10:before { content: "\f194"; }
 .df-d10-0:before { content: "\f100"; }
 .df-d10-1:before { content: "\f101"; }
 .df-d10-10:before { content: "\f102"; }
@@ -129,6 +147,7 @@
 .df-d10-7:before { content: "\f108"; }
 .df-d10-8:before { content: "\f109"; }
 .df-d10-9:before { content: "\f10a"; }
+.df-d12:before { content: "\f195"; }
 .df-d12-1:before { content: "\f10b"; }
 .df-d12-10:before { content: "\f10c"; }
 .df-d12-11:before { content: "\f10d"; }
@@ -141,8 +160,10 @@
 .df-d12-7:before { content: "\f114"; }
 .df-d12-8:before { content: "\f115"; }
 .df-d12-9:before { content: "\f116"; }
+.df-d2:before { content: "\f196"; }
 .df-d2-1:before { content: "\f117"; }
 .df-d2-2:before { content: "\f118"; }
+.df-d20:before { content: "\f197"; }
 .df-d20-1:before { content: "\f119"; }
 .df-d20-10:before { content: "\f11a"; }
 .df-d20-11:before { content: "\f11b"; }
@@ -163,16 +184,19 @@
 .df-d20-7:before { content: "\f12a"; }
 .df-d20-8:before { content: "\f12b"; }
 .df-d20-9:before { content: "\f12c"; }
+.df-d4:before { content: "\f198"; }
 .df-d4-1:before { content: "\f12d"; }
 .df-d4-2:before { content: "\f12e"; }
 .df-d4-3:before { content: "\f12f"; }
 .df-d4-4:before { content: "\f130"; }
+.df-d6:before { content: "\f199"; }
 .df-d6-1:before { content: "\f131"; }
 .df-d6-2:before { content: "\f132"; }
 .df-d6-3:before { content: "\f133"; }
 .df-d6-4:before { content: "\f134"; }
 .df-d6-5:before { content: "\f135"; }
 .df-d6-6:before { content: "\f136"; }
+.df-d8:before { content: "\f19a"; }
 .df-d8-1:before { content: "\f137"; }
 .df-d8-2:before { content: "\f138"; }
 .df-d8-3:before { content: "\f139"; }
@@ -181,6 +205,7 @@
 .df-d8-6:before { content: "\f13c"; }
 .df-d8-7:before { content: "\f13d"; }
 .df-d8-8:before { content: "\f13e"; }
+.df-dot-d6:before { content: "\f19b"; }
 .df-dot-d6-1:before { content: "\f13f"; }
 .df-dot-d6-2:before { content: "\f140"; }
 .df-dot-d6-3:before { content: "\f141"; }
